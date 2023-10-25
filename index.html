@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-around;
+        }
+        #container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        button {
+            align-self: center;
+            margin-bottom: 10px;
+            padding-inline: 5px;
+            padding-block: 5px;
+        }
+        h1 {
+            align-self: center;
+        }
+        #box {
+            width: 400px;
+            height: 200px;
+            border: black solid 2px;
+            text-align: center;
+            font-weight: 600;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Generate a random color</h1>
+        <button>Generate Color</button>
+        <div id="box">This is your new color</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
